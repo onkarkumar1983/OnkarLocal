@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Easy Workflows</fullName>
+    <apiAccessLevel>Unrestricted</apiAccessLevel>
+    <namespacePrefix>ezwf</namespacePrefix>
+    <types>
+        <members>AcceptanceSignedTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AcceptanceSigned</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Account.Easy_Workflow__c</members>
+        <members>Campaign.easy_workflow__c</members>
+        <members>Case.easy_workflow__c</members>
+        <members>Contact.Easy_Workflow__c</members>
+        <members>Contract.easy_workflow__c</members>
+        <members>Lead.Easy_Workflow__c</members>
+        <members>Opportunity.Easy_Workflow__c</members>
+        <name>CustomField</name>
+    </types>
+    <version>33.0</version>
+</Package>

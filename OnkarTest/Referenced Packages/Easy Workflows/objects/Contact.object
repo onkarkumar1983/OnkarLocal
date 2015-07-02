@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Easy_Workflow__c</fullName>
+        <defaultValue>&quot;N3w&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Populated with completed tasks to enhance workflow.</description>
+        <externalId>false</externalId>
+        <label>Task Completed</label>
+        <length>50000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+</CustomObject>

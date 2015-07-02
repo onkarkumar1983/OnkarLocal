@@ -1,0 +1,17 @@
+<apex:page >
+<apex:outputLink value="/apex/chart?type=CandleStick">
+    <apex:image url="{!URLFOR($Resource.GoogleChart,'/ChartResource/CandleStick.png')}" width="200" height="200"/>
+</apex:outputLink>
+
+<apex:image url="{!URLFOR($Resource.GoogleChart,'/ChartResource/Area.png')}" width="200" height="200"/>
+<apex:image url="{!URLFOR($Resource.GoogleChart,'/ChartResource/TimeLine.png')}" width="200" height="200"/>
+<apex:image url="{!URLFOR($Resource.GoogleChart,'/ChartResource/SteppedArea.png')}" width="200" height="200"/>
+<apex:image url="{!URLFOR($Resource.GoogleChart,'/ChartResource/TreeMap.png')}" width="200" height="200"/>
+<apex:image url="{!URLFOR($Resource.GoogleChart,'/ChartResource/Org.png')}" width="200" height="200"/>
+<apex:image url="{!URLFOR($Resource.GoogleChart,'/ChartResource/Geo.png')}" width="200" height="200"/>
+<apex:image url="{!URLFOR($Resource.GoogleChart,'/ChartResource/scatter.png')}" width="200" height="200"/>
+<apex:image url="{!URLFOR($Resource.GoogleChart,'/ChartResource/Line.png')}" width="200" height="200"/>
+<apex:image url="{!URLFOR($Resource.GoogleChart,'/ChartResource/Bubble.png')}" width="200" height="200"/>
+
+
+</apex:page>

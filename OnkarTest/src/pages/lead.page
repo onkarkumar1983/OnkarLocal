@@ -1,0 +1,5 @@
+<apex:page controller="leadController">
+<apex:form >
+    <apex:inputField value="{!lead['OwnerId']}"/>
+</apex:form>
+</apex:page>

@@ -1,0 +1,16 @@
+<apex:page sidebar="false" showHeader="false" standardStylesheets="false">
+ <apex:stylesheet value="{!URLFOR($Resource.bootstrap2, '/bootstrap-3.1.1-dist/bootstrap-3.1.1-dist/css/bootstrap.min.css')}"/>
+ <style>
+ body {
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+  </style>
+<div class ="bootstrap-force">
+      <button class="btn btn-warning">Submit</button>
+</div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ <apex:includeScript value="{!URLFOR($Resource.bootstrap1, '/bootstrap-3.1.1-dist/js/bootstrap.min.js')}"/>
+</apex:page>
