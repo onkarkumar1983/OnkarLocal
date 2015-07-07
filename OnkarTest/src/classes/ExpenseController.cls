@@ -10,7 +10,7 @@ public class ExpenseController {
     @AuraEnabled
     public static Expense__c saveExpense(Expense__c expense) {
         upsert expense;
-        System.debug('Test Data......');
+       
         return expense;
     }
 }
