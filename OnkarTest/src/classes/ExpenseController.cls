@@ -12,7 +12,7 @@ public class ExpenseController {
         upsert expense;
 		System.debug('test...');
 		System.debug('test 111...');
-		System.debug('test 3');
+		
         return expense;
     }
 }
